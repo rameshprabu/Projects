@@ -1,3 +1,3 @@
-# NusSchoolProjects
+Course work Projects
 
-This repository is to store my NUS course work projects. 
+This repository is to store the course work project.
