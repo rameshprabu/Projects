@@ -3,7 +3,7 @@ from nltk.corpus import stopwords
 import unicodedata
 import nltk
 from nltk import word_tokenize
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import textmining
 from nltk import pos_tag
@@ -120,7 +120,7 @@ def sentiment_finder(val,positive_words,negative_words):
 
 
 #creates a word cloud for the input data
-'''
+
 def create_cloud(text_to_draw, filename):
     wordcloud = WordCloud().generate(text_to_draw)
     plt.imshow(wordcloud)
@@ -132,7 +132,7 @@ def create_cloud(text_to_draw, filename):
     plt.imshow(wordcloud)
     plt.axis("off")
     plt.show()
-'''
+
 
 
 #load the data
